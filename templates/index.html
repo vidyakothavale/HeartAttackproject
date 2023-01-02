@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+  
+      <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper">
+          <form action="{{ url_for('predict')}}" method="POST">
+            
+            <div class="formbold-mb-5 formbold-pt-3">
+              <label class="formbold-form-label formbold-form-label-2">
+                Heart Attack Analysis
+              </label>
+              <div class="flex flex-wrap formbold--mx-3">
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <input
+                      type="text"
+                      name=" age" 
+                      id=" age"
+                      placeholder="Enter Age"
+                      class="formbold-form-input"
+                      Required="True"
+                    />
+                  </div>
+                </div>
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <input
+                      type="text"
+                      name="sex"
+                      id="sex"
+                      placeholder="EnterSex Female=0,Male=1"
+                      class="formbold-form-input"
+                      Required="True"
+                    />
+                  </div>
+                </div>
+
+
+
+
+
+
+                
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <input
+                      type="text"
+                      name="cp"
+                      id="cp"
+                      placeholder="Enter CP"
+                      class="formbold-form-input"
+                      Required="True"
+                    />
+                  </div>
+                </div>
+    
+    
+    
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <input
+                      type="text"
+                      name="trtbps"
+                      id="trtbps"
+                      placeholder="Enter trtbps"
+                      class="formbold-form-input"
+                      Required="True"
+                    />
+                  </div>
+                </div>
+    
+    
+                <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="chol"
+                        id="chol"
+                        placeholder="Enter chol"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+    
+    
+    
+    
+    
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="fbs"
+                        id="fbs"
+                        placeholder="Enter fbs"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="restecg"
+                        id="restecg"
+                        placeholder="Enter restecg"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+    
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="thalachh"
+                        id="thalachh"
+                        placeholder="Enter Thalachh"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="exng"
+                        id="exng"
+                        placeholder="Enter exng"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+    
+    
+    
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="oldpeak"
+                        id="oldpeak"
+                        placeholder="Enter oldpeak"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="slp"
+                        id="slp"
+                        placeholder="Enter slp"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+    
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="caa"
+                        id="caa"
+                        placeholder="Enter caa"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+    
+    
+    
+                  <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="thala"
+                        id="thala"
+                        placeholder="Enter thala"
+                        class="formbold-form-input"
+                        Required="True"
+                      />
+                    </div>
+                  </div>
+    
+    
+    
+                  
+     
+    
+              </div>
+            </div>
+      
+            <div>
+              <button class="formbold-btn">Prediction</button>
+            </div>
+          </form>
+          <br>  
+                
+          {% if prediction %}
+          <h3> {{prediction}}</h3>
+
+          {% endif  %}
+            </div>
+          
+          
+          
+          
+            </br>
+        </div>
+      </div>
+
+
+
+</body>
+</html>
